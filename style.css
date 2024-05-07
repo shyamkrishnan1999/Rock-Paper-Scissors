@@ -1,0 +1,75 @@
+
+
+body{
+
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    position:absolute;
+    top:10%;
+    left:10%;
+
+}
+
+h1 {
+
+    
+}
+
+gamescreen{
+
+
+}
+
+div.choice{
+
+    display:flex;
+    justify-content: center;
+    
+
+}
+
+button{
+
+    padding:50px;
+    margin: 10px;
+    border-radius:100%;
+    box-shadow:10px ;
+}
+
+button:hover{
+
+    background-color: red;
+}
+
+div.score{
+
+    position:absolute;
+    left:150%;
+    top:15%;
+    word-wrap:normal;
+    border: 5px solid green;
+    font-size: 36px;
+
+
+}
+
+
+
+#score,#compscore{
+
+    border: 1px solid black;
+}
+
+
+div.text{
+
+    text-align: center;
+
+}
+
+div.gamescreen{
+
+    border: 5px solid green;
+}
+
