@@ -1,6 +1,10 @@
 
+// Variables to store score
+
 var score=0;
 var comp_score=0;
+
+// Function to play win sound
 
 function win(){
 
@@ -8,11 +12,15 @@ function win(){
         win.play()
 }
 
+// Function to play lose sound
+
 function lose(){
 
         var lose=new Audio("sounds/lose.wav");
         lose.play();
 }
+
+// Function to play draw  sound
 
 function draw(){
 
@@ -20,10 +28,14 @@ function draw(){
         draw.play();
 }
 
+// function to get computer choice 
+
 function get_comp_choice()
 {
     return Math.floor(Math.random()*100)%3;
 }
+
+// function to display user score
 
 function displayScore()
 {
@@ -35,6 +47,8 @@ function displayScore()
     
 }
 
+// function to display computer score
+
 function displayCompscore()
 
 {
@@ -45,6 +59,8 @@ function displayCompscore()
 
 
 }
+
+// function to see outcome when user chooses rock
 
 function choiceRock()
 {
@@ -78,6 +94,8 @@ function choiceRock()
  
     
 }
+
+// function to see the outcome when user chooses paper
 
 function choicePaper()
 {
@@ -114,6 +132,8 @@ function choicePaper()
     
 }
 
+
+// function to see outcome when user chooses scissors
 
 function choiceScissors()
 {

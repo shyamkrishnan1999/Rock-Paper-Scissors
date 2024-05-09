@@ -1,4 +1,5 @@
 
+/* style of body */
 
 body{
 
@@ -11,15 +12,7 @@ body{
 
 }
 
-h1 {
-
-    
-}
-
-gamescreen{
-
-
-}
+/* style of choice box containing buttons */
 
 div.choice{
 
@@ -28,6 +21,8 @@ div.choice{
     
 
 }
+
+/* style of buttons */
 
 button{
 
@@ -41,6 +36,9 @@ button:hover{
 
     background-color: red;
 }
+
+
+/* style of score board */
 
 div.score{
 
